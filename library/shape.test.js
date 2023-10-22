@@ -6,7 +6,7 @@ describe('Triangle',()=>{
 
             const element = `<polygon points="150, 18 244, 182 56, 182" fill="blue" />
 
-            <text x="150" y="150" font-size="60" text-anchor="middle" fill="black">jek</text>`
+        <text x="150" y="150" font-size="60" text-anchor="middle" fill="black">jek</text>`
 
             const newTri = new Triangle ("blue","jek","black")
 
