@@ -92,4 +92,4 @@ function init (){
 
 init();
 
-module.exports = Triangle;
+module.exports = {Triangle,Square,Circle}
