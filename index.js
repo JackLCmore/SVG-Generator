@@ -1,9 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const Shape = require('./library/shape.js')
-// let Triangle = require('./library/shape.js');
-// let Square = require('./library/shape.js');
-// let Circle = require('./library/shape.js');
+
 class Triangle extends Shape {
     constructor(color,text,textColor){
         super(color,text,textColor)
@@ -93,3 +91,5 @@ function init (){
 }
 
 init();
+
+module.exports = Triangle;
