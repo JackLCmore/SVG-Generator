@@ -1,6 +1,4 @@
-const {Triangle, Square, Circle} = require("../index.js");
-// const Square = require("../index.js");
-// const Circle = require("../index.js");
+const {Triangle, Square, Circle} = require("./shape.js");
 
 describe('Triangle',()=>{
     describe('element',()=>{
